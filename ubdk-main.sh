@@ -312,7 +312,7 @@ else
                   echo ""
                   echo "Reg nr: 0400"
                   echo "Acount: 4014554950"
-                  echo "choicemesseage: Frivillig donation"
+                  echo "Messeage: Frivillig donation"
                   echo ""
                   echo $linkmesseage
                   echo "https://ubuntudanmark.dk/doner/"
