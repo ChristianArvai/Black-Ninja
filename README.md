@@ -2,15 +2,14 @@
 Bash script to Ubuntu. Clean and Update. Fix Flash, Java. Test GPU + internetcon. And more.
 
 
-
 Wget and chmod:
+
 wget https://ubuntudanmark.dk/filer/ubdk-scripts/ubdk.sh -O ~/ubdk.sh && sudo rm -f /usr/local/bin/ubdk.sh; sudo mv ~/ubdk.sh /usr/local/bin && sudo chmod +x /usr/local/bin/ubdk.sh
 
 
-
 execute:
-sudo ubdk.sh
 
+sudo ubdk.sh
 
 
 WARNING: Following choices have full automatic execution ex:
