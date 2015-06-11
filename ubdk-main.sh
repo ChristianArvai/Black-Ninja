@@ -1,6 +1,7 @@
 #!/bin/sh
 # 
-# author christian arvai
+# Author: Christian Arvai 
+# Credits to: Denmark LoCo Team
 # for all ubuntu releases from 12.04 to current stabil  
 # to both 32 and 64 bits systems
 # this code is available under the creative commons attribution-sharealike license https://creativecommons.org/licenses/by-sa/4.0/
