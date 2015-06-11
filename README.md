@@ -18,4 +18,5 @@ WARNING: Following choices have full automatic execution ex:
 These choices will create a logfile with the output in ~/.UbuntuDanmark-Log
 
 Update Ubuntu - Full automatic with logfile
+
 Clean and Update Ubuntu - Full automatic with logfile
