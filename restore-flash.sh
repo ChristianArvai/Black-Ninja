@@ -26,9 +26,7 @@ sudo rm -f /usr/lib/flashplugin-installer/libflashplayer.so
 sudo rm -f /usr/share/ubufox/plugins/libflashplayer.so
 sudo dpkg -r --force-remove-reinstreq flashplugin-nonfree 
 sudo apt-get autoremove -y --force-yes
-sudo apt-get update -y 
+sudo apt-get update -y &&
 sudo apt-get install -y adobe-flashplugin &&
 sudo ln -s /usr/lib/mozilla/plugins/flashplugin-alternative.so 
 sudo ln -s /usr/lib/firefox-addons/plugins/libflashplayer.so 
-
-
