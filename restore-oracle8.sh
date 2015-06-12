@@ -28,5 +28,7 @@ sudo apt-get purge -y icedtea-7-plugin
 sudo apt-get purge -y oracle-java7-installer 
 sudo apt-get purge -y oracle-java8-installer
 sudo apt-get autoremove 
-sudo apt-get update -y 
-sudo apt-get install -y oracle-java8-installer 
+sudo add-apt-repository ppa:webupd8team/java && 
+sudo apt-get update && 
+sudo mkdir -p /usr/lib/mozilla/plugins && 
+sudo apt-get install -y oracle-java8-installer
