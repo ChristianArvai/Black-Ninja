@@ -1,19 +1,20 @@
 #!/bin/sh
 # 
+# Project: Black-Ninja
 # Author: Christian Arvai 
-# Credits to: Ubuntu Denmark LoCo Team
-# For all Ubuntu releases from 12.04 to current stabil  
-# To 32 and 64 bits systems
+# Credits: Ubuntu Denmark LoCo Team
+# For: All Ubuntu releases from 12.04 to current stabil  
+# To: 32 and 64 bits systems
 # This code is available under the creative commons attribution-sharealike license https://creativecommons.org/licenses/by-sa/4.0/
 
-# make directory ~/.UbuntuDanmark-Log (in case it don't already exist)
-mkdir -p ~/.UbuntuDanmark-Log
-# declare variable log and assign value (path to folder)
-log=~/.UbuntuDanmark-Log
-# declare variable name and assign value
-name=gpuinfo
-# declare variable date and assign value
+# declare variable $log and assign value
+log=~/.black-ninja
+# make directory to logfiles (in case it don't already exist)
+mkdir -p $log
+# declare variable $date and assign value
 date=$(date)
+# declare variable $name and assign value
+name=gpuinfo
 
 echo "Test starts"
 echo ""
