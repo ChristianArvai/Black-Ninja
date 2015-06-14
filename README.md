@@ -1,15 +1,14 @@
-# ubdk
 Bash script to Ubuntu. Clean and Update. Fix Flash, Java. Test GPU + internetcon. And more.
 
 
 Wget and chmod:
 
-wget https://ubuntudanmark.dk/filer/ubdk-scripts/ubdk.sh -O ~/ubdk.sh && sudo rm -f /usr/local/bin/ubdk.sh; sudo mv ~/ubdk.sh /usr/local/bin && sudo chmod +x /usr/local/bin/ubdk.sh
+wget https://ubuntudanmark.dk/filer/ninja/ninja.sh -O ~/ninja.sh && sudo rm -f /usr/local/bin/ninja.sh; chmod +x ~/ninja.sh && sudo mv ~/ninja.sh /usr/local/bin
 
 
 execute:
 
-sudo ubdk.sh
+sudo ninja.sh
 
 
 WARNING: Following choices have full automatic execution ex:
