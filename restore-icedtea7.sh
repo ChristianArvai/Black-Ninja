@@ -1,9 +1,10 @@
 #!/bin/sh
 # 
+# Project: Black-Ninja
 # Author: Christian Arvai 
-# Credits to: Ubuntu Denmark LoCo Team
-# For all Ubuntu releases from 12.04 to current stabil  
-# To 32 and 64 bits systems
+# Credits: Ubuntu Denmark LoCo Team
+# For: All Ubuntu releases from 12.04 to current stabil  
+# To: 32 and 64 bits systems
 # This code is available under the creative commons attribution-sharealike license https://creativecommons.org/licenses/by-sa/4.0/
 
 sudo dpkg --configure -a 
@@ -30,4 +31,5 @@ sudo apt-get purge -y oracle-java8-installer
 sudo add-apt-repository --remove ppa:webupd8team/java
 sudo apt-get autoremove 
 sudo apt-get update -y && 
-sudo apt-get install -y icedtea-7-plugin 
+sudo apt-get install -y icedtea-7-plugin &&
+sudo apt-get upgrade -y
