@@ -1,9 +1,10 @@
 #!/bin/sh
 # 
+# Project: Black-Ninja
 # Author: Christian Arvai 
-# Credits to: Ubuntu Denmark LoCo Team
-# For all Ubuntu releases from 12.04 to current stabil  
-# To 32 and 64 bits systems
+# Credits: Ubuntu Denmark LoCo Team
+# For: All Ubuntu releases from 12.04 to current stabil  
+# To: 32 and 64 bits systems
 # This code is available under the creative commons attribution-sharealike license https://creativecommons.org/licenses/by-sa/4.0/
 
 sudo apt-get purge -y  flashplugin-installer 
@@ -28,5 +29,6 @@ sudo dpkg -r --force-remove-reinstreq flashplugin-nonfree
 sudo apt-get autoremove -y --force-yes
 sudo apt-get update -y &&
 sudo apt-get install -y adobe-flashplugin &&
-sudo ln -s /usr/lib/mozilla/plugins/flashplugin-alternative.so 
+sudo ln -s /usr/lib/mozilla/plugins/flashplugin-alternative.so
 sudo ln -s /usr/lib/firefox-addons/plugins/libflashplayer.so 
+sudo apt-get upgrade -y
