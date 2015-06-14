@@ -13,7 +13,7 @@ sudo ninja.sh
 
 WARNING: Following choices have full automatic execution ex:
 'sudo apt-get update -y' and 'sudo apt-get upgrade -y'
-These choices will create a logfile with the output in ~/.UbuntuDanmark-Log
+These choices will create a logfile with the output in ~/.black-ninja
 
 Update Ubuntu - Full automatic with logfile
 
